@@ -263,7 +263,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 332px;
+  gap: 329px;
 }
 
 .navigation-container {
@@ -291,7 +291,7 @@ address {
 }
 
 /* ================ Main - Hero ================ */
-.hero_section-container {
+.hero_section-main_container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -335,7 +335,7 @@ address {
 
 /* ================ Main - Our Team ================ */
 
-.main_our_team-container {
+.main_our_team-main_container {
   padding: 120px 0px;
   display: flex;
   flex-direction: column;
@@ -373,16 +373,18 @@ address {
   padding: 120px 0px;
   display: flex;
   flex-direction: column;
-  gap: 72px;
+}
+
+.main_our_portfolio_header {
+  margin-bottom: 72px;
 }
 
 .main_our_portfolio_list-container {
   width: 1128px;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 24px;
-  margin: 0 auto;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .main_our_portfolio_list_image {
@@ -390,16 +392,13 @@ address {
 }
 
 .main_our_portfolio_list_element_description_title {
-  padding: 32px 0px 8px 16px;
-}
-
-.main_our_portfolio_list_element_description_role {
-  padding: 0px 0px 32px 16px;
+  margin-bottom: 8px;
 }
 
 .main_our_portfolio_list_element-legend {
   border: 1px solid var(--cornflower);
   border-top: 0;
+  padding: 32px 16px;
 }
 
 /* ================ Footer ================ */
