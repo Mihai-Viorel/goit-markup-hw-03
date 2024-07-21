@@ -291,6 +291,11 @@ address {
 }
 
 /* ================ Main - Hero ================ */
+
+.hero_section-container {
+  padding: 188px 0;
+}
+
 .hero_section-main_container {
   display: flex;
   flex-direction: column;
@@ -298,21 +303,30 @@ address {
 }
 
 .hero_section_title {
-  width: 496px;
-  padding: 188px 0px 48px 0px;
+  max-width: 496px;
+  padding: 0px 0px 48px 0px;
 }
 
 .hero-section_button {
+  min-width: 169px;
   padding: 16px 32px;
   border: 0;
   border-radius: 4px;
-  margin: 0px 0px 188px 0px;
 }
 
 /* ================ Main - Advantages ================ */
 
-.main-advantages_placeholder-heading {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%)
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .main_advantages-container {
@@ -329,17 +343,26 @@ address {
 .main_advantages_list_element {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   width: 264px;
+}
+
+.main_advantages_list_element {
+  margin-bottom: 8px;
 }
 
 /* ================ Main - Our Team ================ */
 
-.main_our_team-main_container {
+.main_our_team-container {
   padding: 120px 0px;
+}
+
+.main_our_team-main_container {
   display: flex;
   flex-direction: column;
-  gap: 72px;
+}
+
+.main_our_team_header {
+  margin-bottom: 72px;
 }
 
 .main_our_team_list-container {
@@ -353,7 +376,7 @@ address {
 }
 
 .main_our_team_list_element_description_title {
-  padding: 32px 0px 8px 0px;
+  margin-bottom: 8px;
   text-align: center;
 }
 
@@ -365,6 +388,11 @@ address {
 .main_our_team_list_element {
   border: none;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+
+.main_our_team_list_element-legend {
+  padding: 32px 0;
 }
 
 /* ================ Main - Our Portfolio ================ */
