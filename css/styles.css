@@ -246,6 +246,12 @@ address {
 
 /* --------------------- Flexbox and placement --------------------- */
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 
 /* ================ Header ================ */
 
@@ -258,18 +264,24 @@ address {
   align-items: center;
   justify-content: center;
   gap: 332px;
-  padding: 24px 0px;
 }
 
 .navigation-container {
   display: flex;
   align-items:center;
-  gap: 76px;
+}
+
+.logo {
+  margin-right: 76px;
 }
 
 .navigation_list-container {
   display: flex;
   gap: 40px;
+}
+
+.nav-item {
+  padding: 24px 0;
 }
 
 .header_contact-list {
