@@ -250,12 +250,15 @@ address {
 /* ================ Header ================ */
 
 .header-container {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-main-container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 332px;
   padding: 24px 0px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation-container {
@@ -389,8 +392,8 @@ address {
 
 /* ================ Footer ================ */
 
-.footer-main-container {
-  padding: 100px 0px 100px 164px;
+.footer-container {
+  padding: 100px 0px;
 }
 
 .footer-description {
