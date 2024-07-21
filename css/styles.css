@@ -263,7 +263,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 329px;
+  gap: 328px;
 }
 
 .navigation-container {
@@ -278,11 +278,12 @@ address {
 .navigation_list-container {
   display: flex;
   gap: 40px;
-}
-
-.nav-item {
   padding: 24px 0;
 }
+
+/* .nav-item {
+  padding: 24px 0;
+} */
 
 .header_contact-list {
   display: flex;
