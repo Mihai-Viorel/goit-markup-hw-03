@@ -324,7 +324,7 @@ address {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  clip-path: inset(100%)
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -346,7 +346,7 @@ address {
   width: 264px;
 }
 
-.main_advantages_list_element {
+.main_advantages_list_element_title {
   margin-bottom: 8px;
 }
 
