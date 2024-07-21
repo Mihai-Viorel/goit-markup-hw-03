@@ -255,6 +255,7 @@ address {
   justify-content: center;
   gap: 332px;
   padding: 24px 0px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation-container {
