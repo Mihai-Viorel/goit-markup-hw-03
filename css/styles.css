@@ -216,7 +216,7 @@ address {
   background-color: var(--white);
 }
 
-.footer-container {
+.footer {
   background-color: var(--navy-blue);
 }
 
@@ -392,12 +392,16 @@ address {
 
 /* ================ Footer ================ */
 
-.footer-container {
+.footer {
   padding: 100px 0px;
 }
 
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-description {
-  padding: 16px 0px 0px 0px;
   width: 264px;
 }
 
